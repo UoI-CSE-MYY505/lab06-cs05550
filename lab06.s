@@ -3,6 +3,7 @@
 data: .word 1
 
 .text
+
     la   x10, data
     li   x11, 0
     li   x9,  -1
@@ -18,4 +19,4 @@ l7: j    loop
 out: 
 l8: addi x17, x0, 10
 l9: ecall
-
+   
